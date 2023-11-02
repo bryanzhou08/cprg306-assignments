@@ -111,3 +111,17 @@ const NewItem = () => {
 };
 
 export default NewItem;
+/*function NewItem({ onAddItem }) {
+  // Rest of your component code
+}
+function handleSubmit(e) {
+  e.preventDefault();
+
+  const newItem = {
+    name: e.target.name.value,
+    quantity: e.target.quantity.value,
+    category: e.target.category.value,
+  };
+
+  onAddItem(newItem); // Call the onAddItem prop with the new item
+}*/
