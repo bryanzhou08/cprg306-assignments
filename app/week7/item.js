@@ -23,3 +23,5 @@ const Item = ({ name, quantity, category,onSelect  }) => {
     </div>
   );
 };
+
+export default Item;
